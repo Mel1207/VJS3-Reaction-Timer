@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello world</h1>
+  <h1>Reaction Timer</h1>
   <button @click="start" class="btn" :disabled="isPlaying">Play</button>
   <Block v-if="isPlaying" :delay="delay" />
 </template>
