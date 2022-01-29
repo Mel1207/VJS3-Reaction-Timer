@@ -22,3 +22,19 @@ body {
     padding: 100px 0;
     margin: 40px auto;
 }
+
+.btn {
+    padding: 10px 30px;
+    color: #fff;
+    background: #328bff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.btn[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
